@@ -1,0 +1,9 @@
+camera_id: 0
+
+task_file_path: "/tmp/gesture_recognizer.task"
+
+nature_remo:
+  access_token: "your access token"
+  target_nickname: "your target appliance nickname"
+
+interval_time: 10

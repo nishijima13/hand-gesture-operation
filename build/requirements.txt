@@ -1,0 +1,4 @@
+mediapipe==0.9.3.0
+nature-remo==0.3.3
+opencv-python==4.7.0.72
+PyYAML==6.0
