@@ -13,7 +13,7 @@ Sample code to control home appliances using [hand gestures (Mediapipe)](https:/
 1. Connect your USB camera.
 1. Start Docker container.  
     ```
-    xhost +local
+    xhost +local:
     docker run --name nature_remo --device /dev/video0:/dev/video0:mwr --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --env="DISPLAY=$DISPLAY" -v [Absolute path of the cloned folder]:/home/workspace -it nature_remo /bin/bash
     ```
     Change the --device and the camera ID in the config file if necessary.
